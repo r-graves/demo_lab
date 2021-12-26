@@ -13,7 +13,7 @@ def build_two(in_len):
     while len(new_record) < in_len:
         written_in = input("What do you want to add: ")
         new_record.append(written_in)
-    return(new_record)
+    boxing_add(new_record)
 
 def boxing_add(list2):
     #append the new list to the existing dataframe
@@ -29,5 +29,5 @@ lsi = ['Quick', 'program','here']
 boxing_out = (boxing_day(lsi))
 in_length = len(boxing_out)
 list2 = build_two(in_length)
-boxing_add(list2)
+
 print(boxing_out)
