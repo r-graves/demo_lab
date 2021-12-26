@@ -10,3 +10,4 @@ lsi = ['Hello','this','is','a','quick','and','dirty','program','I','built','on',
 boxing_out = (boxing_day(lsi))
 
 print(boxing_out)
+print(len(boxing_out))
