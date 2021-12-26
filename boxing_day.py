@@ -3,7 +3,7 @@ import pandas as pd
 
 def boxing_day(list1):
     #build the initial dataframe
-    frame1 = pd.DataFrame(list1)
+    frame1 = pd.DataFrame(data=list1)
     return(frame1)
 
 def build_two(in_len):
@@ -21,7 +21,7 @@ def boxing_add(list2):
         print("lengths of the two lists are not the same "+ str(len(list2))+" vs "+str(len(boxing_out)))
     else:
         print('The Lists are equal, this should work')
-        boxing_out.insert(1,'new_var',list2)
+        boxing_out.insert(1,'appended',list2)
 
 #lsi = ['Hello','this','is','a','quick','and','dirty','program','I','built','on','Boxing', 'day', '2021']
 lsi = ['Quick', 'program','here']
