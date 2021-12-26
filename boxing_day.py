@@ -2,10 +2,12 @@
 import pandas as pd
 
 def boxing_day(list1):
+    #build the initial dataframe
     frame1 = pd.DataFrame(list1)
     return(frame1)
 
 def build_two(in_len):
+    #determine the elements to add to the dataframe
     print(in_len)
     new_record = []
     while len(new_record) < in_len:
@@ -14,6 +16,7 @@ def build_two(in_len):
     return(new_record)
 
 def boxing_add(list2):
+    #append the new list to the existing dataframe
     if len(list2) != len(boxing_out):
         print("lengths of the two lists are not the same "+ str(len(list2))+" vs "+str(len(boxing_out)))
     else:
