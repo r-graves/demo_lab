@@ -23,11 +23,13 @@ def boxing_add(list2):
         print('The Lists are equal, this should work')
         boxing_out.insert(1,'appended',list2)
 
-#lsi = ['Hello','this','is','a','quick','and','dirty','program','I','built','on','Boxing', 'day', '2021']
-lsi = ['Quick', 'program','here']
+lsi = ['Hello','this','is','a','quick','and','dirty','program','I','built','on','Boxing', 'day', '2021']
 
-#boxing_out = (boxing_day(lsi))
+# lsi = ['Quick', 'program','here']
+
+boxing_out = (boxing_day(lsi))
 #in_length = len(boxing_out)
-#list2 = build_two(in_length)
+#build_two(in_length)
+#boxing_out = build_two(in_length)
 
 #print(boxing_out)
