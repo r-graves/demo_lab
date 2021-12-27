@@ -27,9 +27,10 @@ lsi = ['Hello','this','is','a','quick','and','dirty','program','I','built','on',
 
 # lsi = ['Quick', 'program','here']
 
-boxing_out = (boxing_day(lsi))
-#in_length = len(boxing_out)
-#build_two(in_length)
-#boxing_out = build_two(in_length)
+if __name__ == '__main__':
+    boxing_out = (boxing_day(lsi))
+    in_length = len(boxing_out)
+    build_two(in_length)
+    boxing_out = build_two(in_length)
 
-#print(boxing_out)
+    print(boxing_out)
